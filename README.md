@@ -16,6 +16,12 @@ For this example the folders mentioned above are inside a folder called "val". T
 python build_imagenet_data.py -validation_directory val -output_directory path-of-tf-record-directory
 ```
 
+For Tensorflow 2.x *(Tested with Python3.8)* :
+
+```
+python build_imagenet_data.py -validation_directory val -output_directory path-of-tf-record-directory
+```
+
 To create a TF-Record from ImageNet's training set, replace `-validation_directory` with `-train_directory`.
 
 
